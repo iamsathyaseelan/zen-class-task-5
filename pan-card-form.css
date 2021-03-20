@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    background: #ffffdd;
+}
+
+.container .form-title-container {
+    background: #8c2020;
+    text-align: center;
+    padding: 10px;
+}
+
+.container .form-title {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.container .form-sub-title {
+    color: #e5deea;
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    font-style: italic;
+}
+
+.container .form-sub-title a {
+    color: #ef8a04;
+}
+
+.container .important {
+    color: red;
+    font-weight: 700;
+}
+
+.margin-r-10 {
+    margin-right: 10px;
+}
+
+.container .form-container, table {
+    width: 100%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+.field-inline {
+    display: flex;
+}
+
+.form-container tr td {
+    border: 1px solid #000000;
+    padding: 0;
+}
+
+.form-container > tr td:first-child {
+    width: 30px;
+    text-align: center;
+}
+
+.form-container tr td:nth-child(3) {
+    width: 42%;
+}
+
+.form-field-title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.form-field-sub-title {
+    color: #110bfd;
+    font-size: 16px;
+}
+
+.space-large {
+    width: 100px;
+    display: inline-block;
+}
+
+.space {
+    width: 25px;
+    display: inline-block;
+}
+
+.text-input {
+    line-height: 22px;
+    width: 250px;
+}
+
+select {
+    padding: 5px;
+}
+
+.small-text-input {
+    width: 200px;
+}
+
+.tiny-text-input {
+    width: 100px;
+}
+
+.large-text-input {
+    width: 450px;
+}
+
+.field-inline .field-container {
+    flex-grow: 1;
+}
+
+.form-field-tips {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.dark-blue {
+    color: #241c9c;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.inline-block {
+    display: inline-block;
+    text-align: center;
+}
+
+.margin-tb-10 {
+    margin: 10px 0;
+}
+
+.half {
+    display: inline-block;
+    width: 49.5%;
+}
+.no-border{
+    border:unset;
+}
